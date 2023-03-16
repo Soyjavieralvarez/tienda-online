@@ -1,0 +1,535 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header {
+  width: 100%;
+}
+
+.navbar {
+  padding-bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  gap: 10px;
+}
+
+.navbar_menu__text {
+  margin-left: 50px;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar_menu__logo {
+  width: 40%;
+  margin-top: 20px;
+  padding-left: 600px;
+}
+
+.navbar_menu__logo img {
+  width: 100px;
+}
+
+.navbar_menu__icons {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+.navbar_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar_item img {
+  width: 10%;
+}
+
+.navbar_item a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* Women clothes */
+
+.section_women {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.women_clothes {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.women_clothes__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.women_clothes__img {
+  width: 80%;
+}
+
+.women_clothes__caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.women_clothes__price {
+  font-weight: bolder;
+}
+
+.section_discount {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.section_discount {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.discount_text {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discount_text h4 {
+  font-weight: lighter;
+}
+
+.discount_text p {
+  padding: 10px;
+  margin: 10px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_caption {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_caption_box {
+  margin-left: 40px;
+}
+
+.contact_caption h6 {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.contact_caption_box ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.contact_caption__link {
+  padding: 10px;
+  list-style: none;
+}
+
+.contact_caption__link a {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.contact p {
+  margin: 20px;
+}
+
+.contact_caption__border {
+  border-right: solid 2px black;
+}
+
+.footer {
+  margin: 60px;
+  display: flex;
+}
+
+.footer_buy {
+  width: 100%;
+}
+
+.footer_buy h5 {
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.footer_buy ul {
+  list-style: none;
+}
+
+.footer_buy a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer_icons {
+  padding: 5px;
+  width: 4%;
+}
+
+.footer_information_extra {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.information_extra__box {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information_icons {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 5%;
+}
+
+.information_extra__box a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 767px) {
+    
+      
+      .header {
+        
+        width: 100%;
+      }
+      
+      .navbar {
+        padding-bottom: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .navbar_menu {
+        
+        width: 80%;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        list-style: none;
+        padding: 10px;
+        margin: 10px;
+      }
+      
+      .navbar_menu__text {
+        
+        margin-left: 0px;
+        text-align: center;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
+      .navbar_menu__logo {
+        width: 40%;
+        margin-top: 20px;
+        padding-left: 0px;
+      }
+      
+      .navbar_menu__logo img {
+        width: 150px;
+      }
+      
+      .navbar_menu__icons {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+      }
+      .navbar_item {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .navbar_item img {
+        width: 10%;
+      }
+      
+      .navbar_item a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+      }
+      
+      /* Women clothes */
+      
+      .section_women {
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .women_clothes {
+        padding: 10px;
+        width: 90%;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .women_clothes__box {
+       
+        height: 200px;
+        margin:0px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+      }
+      
+      .women_clothes__img {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:10px;
+        width: 75%;
+      }
+      
+      .women_clothes__caption {
+      
+        height: 50%;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+        padding: 0px;
+        margin: 2px;
+        text-align: center;
+      }
+
+      .women_clothes__text{
+      
+        height: 100%;
+        justify-content: center;
+      }
+      
+      .women_clothes__price {
+       
+        height:20%;
+        font-weight: bolder;
+        text-align: center;
+      }
+      
+      .section_discount {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        text-align: center;
+      }
+      
+      .section_discount {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+      }
+      
+      .discount_text {
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .discount_text h4 {
+        font-weight: lighter;
+      }
+      
+      .discount_text p {
+        padding: 10px;
+        margin: 10px;
+        font-weight: lighter;
+        font-size: 20px;
+      }
+      
+      .contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .contact_caption {
+        width: 100%;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .contact_caption_box {
+        margin-left: 0px;
+      }
+      
+      .contact_caption h6 {
+        margin: 10px;
+        font-size: 20px;
+      }
+      
+      .contact_caption_box ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+      }
+      
+      .contact_caption__link {
+        padding: 10px;
+        list-style: none;
+      }
+      
+      .contact_caption__link a {
+        text-align: center;
+        color: black;
+        text-decoration: none;
+      }
+      
+      .contact p {
+        margin: 20px;
+      }
+      
+      .contact_caption__border {
+        border-right: solid 2px black;
+      }
+      
+      .footer {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      
+      .footer_buy {
+        width: 100%;
+      }
+      
+      .footer_buy h5 {
+        font-size: 20px;
+        padding: 5px;
+        margin: 5px;
+      }
+      
+      .footer_buy ul {
+        list-style: none;
+      }
+      
+      .footer_buy a {
+        text-decoration: none;
+        color: black;
+      }
+      
+      .footer_icons {
+        padding: 5px;
+        width: 4%;
+      }
+      
+      .footer_information_extra {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .information_extra__box {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .information_icons {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        width: 5%;
+      }
+      
+      .information_extra__box a {
+        text-decoration: none;
+        color: black;
+      }
+
+}
